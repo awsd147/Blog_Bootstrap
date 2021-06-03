@@ -1,0 +1,185 @@
+/* Responsive for lg */
+/* @media (min-width: 1200px){
+
+  .col-lg-3 {
+      display: block;
+  }
+}
+@media (min-width: 0px ) and (max-width:1199px){
+  .col-lg-3 {
+      display: none;
+  }
+
+} */
+/* .header {
+  background-color: #eeee;
+}
+.col-xl-5 a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+.col-xl-5 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+svg:hover {
+  color: black;
+  border-radius: 50%;
+  background-color: rgba(33, 40, 50, 0.125);
+}
+.close {
+  border: none;
+}
+.close:hover {
+  border-radius: 50%;
+  background-color: rgba(33, 40, 50, 0.125);
+}
+.git {
+  color: black;
+  border: none;
+}
+.git:hover {
+  color: black;
+  background-color: rgba(33, 40, 50, 0.125);
+}
+.download {
+  background-color: #f0e3e7;
+  border-color: #f0e3e7;
+} */
+
+/* .col-xl-3{
+  display: block;
+}
+.col-lg-3 {
+  display:none;
+
+} */
+
+/* CSS for Navbar */
+nav a{
+  text-transform: uppercase;
+  font-size: 50px;
+  color: rgb(85, 73, 73) !important;
+}
+.list-item a{
+  font-size: 20px  !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(85, 73, 73) !important;
+}
+nav a:hover, .list-item a:hover{
+    color: rgba(255,255,255,.8) !important;
+}
+@media only screen and (min-width : 769px){
+  nav{
+    background-color: transparent !important;
+  }
+}
+@media only screen and (max-width : 768px){
+  nav{
+    
+    background-color: rgb(149, 163, 83) !important;
+  }
+  nav a{
+    color: black !important;
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .list-item a{
+    font-size: 20px  !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: black !important;
+  }
+  .navbar-dark .navbar-toggler{
+    color: black;
+  }
+}
+
+/* CSS for Main */
+
+.overlay{
+  background-image: linear-gradient(to bottom, rgb(0 0 0 / 8%), rgb(16 16 19 / 24%)), url(https://i.ytimg.com/vi/nB3TJbfPDjk/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10%;
+}
+.blog {
+  padding-bottom: 200px;
+  text-align: center;
+}
+.blog p {
+    color: white;
+  font-size: 80px;
+
+}
+.blog span {
+    color: white;
+  font-size: 30px;
+}
+
+/* CSS for Content */
+.content{
+  /* margin-top: 75px; */
+  border-bottom: 1px solid rgba(0,0,0,.1);
+    text-align: left
+}
+.content a{
+  color: black;
+  text-decoration: none;
+}
+.content .col-md-6{
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.content h1,p{
+  font-weight: 800;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.content p{
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.content h1:hover,.content p:hover,.content span a:hover{
+  color: #0085a1;
+}
+.content .primary{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #0085a1;
+  border-color: #0085a1;
+}
+.content .primary:hover{
+  background-color: #00657b!important;
+  border-color: #00657b!important;
+}
+
+
+/* CSS for Footer */
+.footer .col-md-12{
+    text-align: center;
+}
+.footer .icon{
+    
+    border:none;
+}
+.icon .svg-inline--fa.fa-w-16{
+    border-radius: 50%;
+    color: white;
+}
+.icon a{
+    text-decoration: none;
+    font-size: 50px;
+    background: black;
+    
+}
+.icon a:hover{
+    background: #0085a1;
+    color: white;
+}
+
+
